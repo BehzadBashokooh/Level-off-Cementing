@@ -9,6 +9,7 @@ import plotly.offline as pyo
 import plotly.graph_objs as go
 
 
+
 class AppWindow(qtw.QWidget):
 
     def __init__(self, *args, **kwargs):
