@@ -72,6 +72,9 @@
            <property name="enabled">
             <bool>true</bool>
            </property>
+           <property name="toolTip">
+            <string>Total Depth (m)</string>
+           </property>
            <property name="text">
             <string>Total Depth (m)</string>
            </property>
@@ -84,6 +87,9 @@
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
+           </property>
+           <property name="toolTip">
+            <string>Total Depth (m)</string>
            </property>
            <property name="autoFillBackground">
             <bool>true</bool>
@@ -98,6 +104,9 @@
            <property name="enabled">
             <bool>true</bool>
            </property>
+           <property name="toolTip">
+            <string>Shoe Depth (m)</string>
+           </property>
            <property name="text">
             <string>Shoe Depth (m)</string>
            </property>
@@ -111,6 +120,9 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="toolTip">
+            <string>Shoe Depth (m)</string>
+           </property>
            <property name="text">
             <string>0</string>
            </property>
@@ -120,6 +132,9 @@
           <widget class="QLabel" name="label_6">
            <property name="enabled">
             <bool>true</bool>
+           </property>
+           <property name="toolTip">
+            <string>Loss Zone Depth (m)</string>
            </property>
            <property name="text">
             <string>Loss Zone Depth (m)</string>
@@ -134,6 +149,9 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="toolTip">
+            <string>Loss Zone Depth (m)</string>
+           </property>
            <property name="text">
             <string>0</string>
            </property>
@@ -143,6 +161,9 @@
           <widget class="QLabel" name="label_7">
            <property name="enabled">
             <bool>true</bool>
+           </property>
+           <property name="toolTip">
+            <string>RTTS Packer Depth (m)</string>
            </property>
            <property name="text">
             <string>RTTS Packer Depth (m)</string>
@@ -157,6 +178,9 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="toolTip">
+            <string>RTTS Packer Depth (m)</string>
+           </property>
            <property name="text">
             <string>0</string>
            </property>
@@ -169,6 +193,9 @@
            </property>
            <property name="focusPolicy">
             <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="toolTip">
+            <string>Casing Cap (bbl/ft)</string>
            </property>
            <property name="text">
             <string>Casing Cap (bbl/ft)</string>
@@ -183,6 +210,9 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="toolTip">
+            <string>Casing Cap (bbl/ft)</string>
+           </property>
            <property name="text">
             <string>0</string>
            </property>
@@ -192,6 +222,9 @@
           <widget class="QLabel" name="label_14">
            <property name="enabled">
             <bool>true</bool>
+           </property>
+           <property name="toolTip">
+            <string>Open Hole Cap (bbl/ft)</string>
            </property>
            <property name="text">
             <string>Open Hole Cap (bbl/ft)</string>
@@ -206,6 +239,9 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="toolTip">
+            <string>Open Hole Cap (bbl/ft)</string>
+           </property>
            <property name="text">
             <string>0</string>
            </property>
@@ -213,6 +249,9 @@
          </item>
          <item row="6" column="0">
           <widget class="QLabel" name="label_4">
+           <property name="toolTip">
+            <string>DP Cap (bbl/ft)</string>
+           </property>
            <property name="text">
             <string>DP Cap (bbl/ft)</string>
            </property>
@@ -220,6 +259,9 @@
          </item>
          <item row="6" column="1">
           <widget class="QLineEdit" name="dp_cap">
+           <property name="toolTip">
+            <string>DP Cap (bbl/ft)</string>
+           </property>
            <property name="text">
             <string>0</string>
            </property>
@@ -229,6 +271,9 @@
           <widget class="QLabel" name="label_9">
            <property name="enabled">
             <bool>true</bool>
+           </property>
+           <property name="toolTip">
+            <string>Mud Weight (pcf)</string>
            </property>
            <property name="text">
             <string>Mud Weight (pcf)</string>
@@ -243,6 +288,9 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="toolTip">
+            <string>Mud Weight (pcf)</string>
+           </property>
            <property name="text">
             <string>0</string>
            </property>
@@ -252,6 +300,9 @@
           <widget class="QLabel" name="label_10">
            <property name="enabled">
             <bool>true</bool>
+           </property>
+           <property name="toolTip">
+            <string>Cement Slurry Weight (pcf)</string>
            </property>
            <property name="text">
             <string>Cement Slurry Weight (pcf)</string>
@@ -266,6 +317,9 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="toolTip">
+            <string>Cement Slurry Weight (pcf)</string>
+           </property>
            <property name="text">
             <string>0</string>
            </property>
@@ -275,6 +329,9 @@
           <widget class="QLabel" name="label_11">
            <property name="enabled">
             <bool>true</bool>
+           </property>
+           <property name="toolTip">
+            <string>Final CMT Column Above Loss Zone (m)</string>
            </property>
            <property name="text">
             <string>Final CMT Column Above Loss Zone (m)</string>
@@ -289,6 +346,9 @@
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
+           <property name="toolTip">
+            <string>Final CMT Column Above Loss Zone (m)</string>
+           </property>
            <property name="text">
             <string>0</string>
            </property>
@@ -296,6 +356,9 @@
          </item>
          <item row="10" column="0">
           <widget class="QLabel" name="label_22">
+           <property name="toolTip">
+            <string>Loss Zone Formation Pressure (psi)</string>
+           </property>
            <property name="text">
             <string>Loss Zone Formation Pressure (psi)</string>
            </property>
@@ -303,6 +366,9 @@
          </item>
          <item row="10" column="1">
           <widget class="QLineEdit" name="loss_zone_press">
+           <property name="toolTip">
+            <string>Loss Zone Formation Pressure (psi)</string>
+           </property>
            <property name="text">
             <string>0</string>
            </property>
