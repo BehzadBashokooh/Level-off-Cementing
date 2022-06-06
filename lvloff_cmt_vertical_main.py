@@ -60,6 +60,29 @@ class AppWindow(qtw.QWidget):
         self.loss_zone_press = float(self.ui.loss_zone_press.text())
 
         # Start of calculations
+        # initial condition is exactly after the cement and mud is displaced to the required depth
+        # final condition is after part of cement is lost into the loss zone and hydrostatic pressure is equal to 
+        # the loss formation pressure
+
+        # parameters
+        # final_cmt_col_press   : final cement column pressure (psi)
+        # mud_drop_dp           : mud drop in drill pipe (m)
+        # mud_drop_vol          : volume of mud drop in drill pipe (bbl)
+        # cmt_lost_vol          : volume of cement that is lost into formation (bbl). this is equal to mud_drop_vol
+        # total_dp_vol          : total volume of mud in drill pipe @ initial condition after displacement (bbl)
+        # rtts_to_shoe_vol      : volume of casing between RTTS depth and casing shoe depth (bbl)
+        # oh_vol                : open hole volume between loss zone depth and casing shoe (bbl)
+        # final_cmt_vol         : final cement volume in hole @ final condition (bbl)
+        # disp_mud_vol          : volume of mud required to displace the cement (bbl)
+        # cmt_lvldrop           : distance that cement column drops in hole between initial and final conditions (m)
+        # initial_cmt_col       : cement column length at initial condition (m)
+        # total_cmt_vol         : cement volume at initial condition (bbl)
+        # init_toc_rtts         : distance between top of cement and RTTS depth @ initial condition (m)
+        # loss_zone_press_diff  : difference between hydrostatic pressure in hole and loss formation pressure
+        #                         @ initial condition (psi)
+        # init_toc_md           : top of cement depth @ initial condition (m)
+        # final_toc_md          : top of cement depth @ final condition (m)
+        
         self.final_cmt_col_press = 0.052*self.cmt_weight/7.481*self.final_cmt_col*3.281
 
         self.mud_drop_dp = self.loss_zone_md - self.final_cmt_col - ((self.loss_zone_press -
